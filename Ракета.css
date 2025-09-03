@@ -1,0 +1,55 @@
+@font-face{
+  font-family:"Detchg";
+  src: url("deutschgothic.woff") format("woff");}
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+  background-color: #1d126d;
+  color: #9d87d9;
+  margin-left: 126px;
+  margin-left: 126px;
+  border: 2px solid #4e274f;
+  padding: 10px;
+  font-family: sans-serif;
+  }
+  h1{
+  color: #2a6f61;
+  }
+nav{background-color: rgb(149, 197, 232);
+padding: 30px;
+font-size: larger;
+}
+nav a{
+  margin: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Detchg;
+}
+#raket{
+  border: 2px solid #17a181;
+  width: 500px;
+  float: right;
+background-image: url("images/космос.jpg");
+color: #1bb09c;
+padding: 20px;
+    border-radius: 10px;
+    border-top-style: dashed;
+}
+.raket{
+  color: #d18800;
+}
+#raket{
+  background-repeat: no-repeat;
+  padding-left: 80px;
+}
+table{
+  border: 2px solid black;
+}
+td{
+  border: 1px solid black;
+}
+th{
+  border: 1px solid black;
+}

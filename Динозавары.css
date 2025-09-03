@@ -1,0 +1,70 @@
+@keyframes chameleon{
+  0% {
+      transform: scale3d(1,1,1);
+  }
+  50%{
+transform: scale3d(1.05,1.05,1.05);
+  }
+  100%{
+      transform: scale3d(1,1,1);
+  }
+}
+@font-face{
+  font-family:"Detchg";
+  src: url("deutschgothic.woff") format("woff");}
+  @keyframes gradient{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+    }
+  .chameleon{
+    animation: chameleon 3s infinite;
+    }
+    .gradient{
+      background-repeat: 400% 400%;
+      padding: 20px;
+      background: linear-gradient(-45deg, #ee7752, #3c3fe7, #ff5900, #23d5c6);
+      animation: gradient 3s infinite;
+    }
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+  background-color: #0c7852;
+  color: #8bd987;
+  margin-left: 126px;
+  margin-left: 126px;
+  border: 2px solid #557e0b;
+  padding: 10px;
+  font-family: sans-serif;
+  }
+  h1{
+  color: #09ad25;
+  }
+h1.chameleon:hover{color: aqua;}
+nav{background-color: rgb(35, 94, 137);
+padding: 30px;
+font-size: larger;
+}
+nav a{
+  margin: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Detchg;
+}
+table{
+  border: 2px solid black;
+}
+td{
+  border: 1px solid black;
+}
+th{
+  border: 1px solid black;
+}

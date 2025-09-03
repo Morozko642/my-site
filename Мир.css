@@ -1,0 +1,58 @@
+@font-face{
+  font-family:"Detchg";
+  src: url("deutschgothic.woff") format("woff");}
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color:#191782 ;
+    color:#d9cb87 ;
+    margin-left: 126px;
+    margin-right: 126px;
+    border: 2px solid #9a8c9a;
+    padding: 10px;
+    font-family:  sans-serif;
+  }
+h1{
+color:#c26f0f ;  
+}
+nav{background-color: #045067;
+padding: 30px;
+font-size: larger;
+}
+#Mir{
+  border: 2px solid #17a1a1;
+  width: 300px;
+  float: right;
+background-image: url("images/космос.jpg");
+color: #1b9ab0;
+padding: 20px;
+    border-radius: 10px;
+    border-top-style: dashed;
+}
+.Mir{
+  color: #788a37;
+}
+#Mir{
+  background-repeat: no-repeat;
+  padding-left: 80px;
+}
+a{
+  color: #8aa8ad;
+}
+nav a{
+  margin: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Detchg;
+}
+table{
+  border: 2px solid #73b011;
+}
+td{
+  border: 1px solid #73b011;
+}
+th{
+  border: 1px solid #73b011;
+}
