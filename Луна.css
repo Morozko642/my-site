@@ -1,0 +1,60 @@
+@font-face{
+  font-family:"Detchg";
+  src: url("deutschgothic.woff") format("woff");
+  
+}
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+  background-color: #175082;  
+  color: #52c970;
+  margin-left: 126px;
+  margin-right: 126px;
+  border: 2px solid #50ad7a;
+  padding: 10px;
+  font-family: sans-serif;
+  }
+  h1{
+  color: #09596d;
+  }
+  h4{
+  color: #403582;
+  }
+  nav{background-color: #2e46bd;
+    padding: 30px;
+    font-size: larger;
+  }
+  #lunap{
+    background-image:url("images/космос.jpg");
+  }
+  #luna{
+    border: 2px solid #17a1a1;
+    width: 300px;
+    float: right;
+background-image: url("images/космос.jpg");
+color: #1b9ab0;
+padding: 20px;
+    border-radius: 10px;
+    border-top-style: dashed;
+    
+  }
+  h2{font-family:"Detchg"}
+  .luna{
+    color: #c26203;
+  }
+  #luna1{
+    background-image: url(images/звезда.gif);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+  }
+  a{
+    color: #90b9dd;
+  }
+  nav a{
+    margin: 30px
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Detchg;
+  }
