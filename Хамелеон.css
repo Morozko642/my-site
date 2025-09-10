@@ -46,7 +46,6 @@ html {
   color: #9d87d9;
   margin-left: 126px;
   margin-right: 126px;
-  border: 2px solid #5d265e;
   padding: 10px;
   font-family: sans-serif;
   }
@@ -88,5 +87,13 @@ color: #0fc26e;
  }
  .wualewie{
   color: #bbb204;
+ }
+ img{
+  max-width: 100%;
+  height: auto;
+ }
+ video{
+  max-width: 100%;
+  height: auto;
  }
  

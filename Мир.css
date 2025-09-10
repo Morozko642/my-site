@@ -56,3 +56,11 @@ td{
 th{
   border: 1px solid #73b011;
 }
+img{
+  max-width: 100%;
+  height: auto;
+ }
+ video{
+  max-width: 100%;
+  height: auto;
+ }
