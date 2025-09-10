@@ -1,0 +1,20 @@
+body{
+    background-color: #749a1b;  
+    color: #87a1d9;
+    margin-left: 126px;
+    margin-right: 126px;
+    border: 2px solid #5e2d26;
+    padding: 10px;
+    font-family: sans-serif;
+    }
+    nav{ background-color: #ebff14;
+        padding: 30px;
+         font-size: larger;
+         margin: 30px;
+         }
+         nav a{
+          padding: 10px;
+          font-size: 20px;
+          text-decoration: none;
+          font-family: Detchg;
+         }
